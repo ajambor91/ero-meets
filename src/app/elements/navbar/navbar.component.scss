@@ -1,0 +1,20 @@
+nav {
+    margin: auto;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-color: #fff;
+    border-width: 2px;
+    background: rgb(52,5,57);
+    background: radial-gradient(circle, rgba(52,5,57,1) 0%, rgba(110,9,121,0.7819502801120448) 65%, rgba(0,212,255,0) 100%);
+    ul{
+        display: table-cell;
+        vertical-align: middle;
+        height: 50px;
+      li{
+        display: inline-block;
+        color: #fff;
+        padding: 0 10px;
+        font-size: bold;
+       }   
+    }
+}
